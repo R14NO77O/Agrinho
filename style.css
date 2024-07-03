@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body {
+    font-family: 'Poppins', sans-serif;
+    }
+    .cabecalho {
+    background-color: #436404;
+    color: rgb(254, 254, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+    }
+    .cabecalho-imagem{
+    width: 10%;
+    }
+    .cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+    }
+    .agricultura-imagem{
+    width: 25%;
+    }
+    .agricultura{
+    background-image: linear-gradient(#7b9603,hsla(152, 89%, 41%, 0.781));
+    color:rgb(12, 59, 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+    }
+    .div-conteudo{
+    width: 35%;
+    }
+    
+    .titulo{
+    padding: 24px 0;
+    }
